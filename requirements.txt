@@ -7,7 +7,9 @@ isort
 httpx
 pydantic
 sqlalchemy
+psycopg2-binary
 databases[aiosqlite]
+databases[asyncpg]
 python-dotenv
 pydantic-settings
 rich
