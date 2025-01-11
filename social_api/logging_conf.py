@@ -50,7 +50,6 @@ def configure_logging():
                 "file": {
                     "class": "pythonjsonlogger.jsonlogger.JsonFormatter",
                     "datefmt": "%Y-%m-%dT%H:%M:%S",
-                    # "format": "%(asctime)s.%(msecs)03dZ | %(levelname)-8s | [%(correlation_id)s] %(name)s:%(lineno)s - %(message)s",
                     "format": "%(asctime)s %(msecs)03dZ %(levelname)-8s %(correlation_id)s %(name)s:%(lineno)s %(message)s",
                 },
             },
