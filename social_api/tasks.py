@@ -41,7 +41,7 @@ async def send_user_registration_email(email: str, confirmation_url: str):
         "Successfully signed up",
         (
             f"Hi {email}! You have successfully signed up to the social REST API."
-            " Please confirm you email by clicking on the"
+            " Please confirm your email by clicking on the"
             f"following link: {confirmation_url}"
         ),
     )
